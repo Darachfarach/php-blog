@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "glitch";
+  src: url("../fonts/Glitch.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/Glitch.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/Glitch.otf") format("opentype"), /* Open Type Font */
+    url("../fonts/Glitch.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/Glitch.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/Glitch.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/Glitch.woff2") format("woff2"); /* Modern Browsers */
+
+}
+
+@font-face {
+  font-family: "dosis";
+  src: url("../fonts/TerminalDosis-SemiBold.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/TerminalDosis-SemiBold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/TerminalDosis-SemiBold.otf") format("opentype"), /* Open Type Font */
+    url("../fonts/TerminalDosis-SemiBold.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/TerminalDosis-SemiBold.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/TerminalDosis-SemiBold.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/TerminalDosis-SemiBold.woff2") format("woff2"); /* Modern Browsers */
+
+}
+html,body,*{
+	font-family: dosis!important;
+	
+}
+.navbar-brand{
+	font-family: glitch!important;
+}

@@ -1,0 +1,39 @@
+.cover{
+	width: 100%;
+	height: 360px;
+	background: url(../images/cover.png) black;
+	background-size: cover;
+	background-position: center;
+}
+.topcats>div{
+	height: 160px;
+	min-width: 370px!important;
+	margin-top: 10px;
+	background-size: cover;
+	background-position: center;
+}
+
+.news-texts>p{
+	text-indent: 40px;
+}
+.news-texts>p{
+	font-size: 12px;
+}
+.topcat{
+	position: relative;
+	height: 100%;
+}
+.topcat>.topcat-title{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	top:120px;
+	height: 100%;
+}
+.list-unstyled>li>a{
+	color:white;
+}
+.list-unstyled>li>a:hover{
+	text-decoration: none;
+	font-weight: bold;
+}
